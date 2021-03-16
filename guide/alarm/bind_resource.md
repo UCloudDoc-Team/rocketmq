@@ -2,7 +2,7 @@
 
 进入 资源监控UMon - 资源监控：https://console.ucloud.cn/umon/overview
 
-选择指定的项目、地域，URocketMQ为地域级别产品，可用区注意***需要选择下拉表中的第一个***，资源类型选择RocketMQ消息队列，选项确定后可获取符合的实例列表
+选择指定的项目、地域，URocketMQ为地域级别产品，可用区注意需要选择下拉表中的第一个，资源类型选择RocketMQ消息队列，选项确定后可获取符合的实例列表
 
 ![alarm_resource_list](/URocketMQ/images/alarm_resource_list.png)
 

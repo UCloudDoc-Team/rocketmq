@@ -3,7 +3,7 @@
 
 产品架构如下
 
-![architecture](../images/architecture.png)
+![architecture](/URocketMQ/images/architecture.png)
 
 NameServer：路由注册中心，提供Broker管理与路由信息管理功能。
 

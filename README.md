@@ -1,7 +1,7 @@
 
 # 概览
 
-* [概览](/URocketMQ/README)
+* [概览.](/URocketMQ/README)
 * 产品简介
     * [产品概念](/URocketMQ/introduction/concept)
     * [产品架构](/URocketMQ/introduction/architecture)

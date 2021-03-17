@@ -4,4 +4,4 @@
 
 注意：广播消费模式下不提供消费堆积查询功能。
 
-![group_subscription](/URocketMQ/images/group_subscription.png)
+![group_subscription](/rocketmq/images/group_subscription.png)

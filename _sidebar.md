@@ -34,4 +34,4 @@
 * [接入指引](/rocketmq/practice/index)
 * [性能指标](/rocketmq/capacity/index)
 * [产品定价](/rocketmq/price/index)
-* [FAQ](/rocketmq/faq/index)https://github.com/about)
+* [FAQ](/rocketmq/faq/index)

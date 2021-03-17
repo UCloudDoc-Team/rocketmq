@@ -6,4 +6,4 @@
 * 务必选择有效期以内的消息时间范围进行操作。
 * 广播消费模式下不支持重置消息位。
 
-![group_resetoffset](/URocketMQ/images/group_resetoffset.png)
+![group_resetoffset](/rocketmq/images/group_resetoffset.png)

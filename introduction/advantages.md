@@ -1,6 +1,6 @@
 # 产品优势
 
-### 兼容开源RocketMQ.
+### 兼容开源RocketMQ
 
 ⽤户⽆需修改代码，可轻松迁移⾄URocketMQ接⼊使⽤。
 

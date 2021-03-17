@@ -1,7 +1,7 @@
 
 # 概览
 
-* 产品简介
+* 产品简介.
     * [什么是URocketMQ](/URocketMQ/introduction/concept)
     * [产品架构](/URocketMQ/introduction/architecture)
     * 功能特性

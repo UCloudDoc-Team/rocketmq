@@ -7,6 +7,7 @@
         * [消费模型](/rocketmq/introduction/features/consume_model)
         * [消息回溯](/rocketmq/introduction/features/message_backtracking)
         * [死信队列](/rocketmq/introduction/features/dlq)
+        * [网络模式](/rocketmq/introduction/features/net)
     * [产品优势](/rocketmq/introduction/advantages)
 * 操作指南
     * 实例管理

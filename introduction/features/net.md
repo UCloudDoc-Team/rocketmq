@@ -4,7 +4,7 @@ URocketMQ提供内网与外网两种网络模式，用户可根据业务需要�
 
 ## 内网模式
 
-用户仅可在可在UCloud用户网进行访问URocketMQ实例。
+用户仅可在UCloud用户网进行访问URocketMQ实例。
 
 ## 外网模式
 

@@ -22,4 +22,4 @@
 
 URocketMQ兼容开源RocketMQ协议，用户可下载对应语言的开源SDK，并利用实例接入地址、Topic名称、Group名称、公私钥信息（ACL使用）进行使用。
 
-说明：JAVA SDK版本建议不低于4.6.1。
+说明：JAVA SDK版本建议不低于4.7.1。

@@ -16,12 +16,12 @@
 
 ## 获取ACL
 
-在“概览”页“公私钥 ”模块获取实例公私钥信息。
+在“概览”页ACL模块获取实例访问认证信息。
 
 注意，该ACL信息为URocketMQ自定义的SDK接入认证信息，并非用户产品API访问公私钥。
 
 ## SDK接入
 
-URocketMQ兼容开源RocketMQ协议，用户可下载对应语言的开源SDK，并利用实例接入地址、Topic名称、Group名称、公私钥信息（ACL使用）进行使用。
+URocketMQ兼容开源RocketMQ协议，用户可下载对应语言的开源SDK，并利用实例接入地址、Topic名称、Group名称、ACL信息进行使用。
 
 说明：JAVA SDK版本建议不低于4.7.1。

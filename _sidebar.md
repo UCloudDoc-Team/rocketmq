@@ -7,6 +7,7 @@
         * [消费模型](/rocketmq/introduction/features/consume_model)
         * [消息回溯](/rocketmq/introduction/features/message_backtracking)
         * [死信队列](/rocketmq/introduction/features/dlq)
+        * [消息轨迹](/rocketmq/introduction/features/msessage_trace.md)
         * [网络模式](/rocketmq/introduction/features/net)
     * [产品优势](/rocketmq/introduction/advantages)
 * 操作指南
@@ -27,6 +28,7 @@
         * [重置消息位](/rocketmq/guide/group/reset_offset)
         * [Group删除](/rocketmq/guide/group/delete)
     * [消息查询](/rocketmq/guide/message)
+    * [消息轨迹](/rocketmq/guide/message_trace)
     * [死信队列](/rocketmq/guide/dlq)
     * [操作日志](/rocketmq/guide/log)
     * 告警通知

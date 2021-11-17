@@ -30,11 +30,15 @@
     * [消息查询](/rocketmq/guide/message)
     * [消息轨迹](/rocketmq/guide/message_trace)
     * [死信队列](/rocketmq/guide/dlq)
+    * [令牌管理](/rocketmq/guide/token)
     * [操作日志](/rocketmq/guide/log)
     * 告警通知
         * [创建告警模板](/rocketmq/guide/alarm/create_template)
         * [绑定资源](/rocketmq/guide/alarm/bind_resource)
-* [接入指引](/rocketmq/practice/index)
+* [接入指南](/rocketmq/practice/index)
+* [迁移指南](/rocketmq/transfer/index)
 * [性能指标](/rocketmq/capacity/index)
-* [产品定价](/rocketmq/price/index)
+* [计费说明]
+    * [产品定价](/rocketmq/price/index)
+    * [回收](/rocketmq/price/recycle)
 * [FAQ](/rocketmq/faq/index)

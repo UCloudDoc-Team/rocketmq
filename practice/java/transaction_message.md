@@ -1,6 +1,6 @@
 # 收发事务消息
 
-应用本地事务和发送消息操作可以被定义到全局事务中，要么同时成功，要么同时失败。
+应用本地事务和发送消息操作可以被定义到全局事务中，要么同时成功，要么同时失败，通过事务消息能达到分布式事务的最终一致。
 
 ## 发送事务消息
 
@@ -44,7 +44,7 @@ public class TransactionProducer {
             }
         };
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         TransactionMQProducer producer = new TransactionMQProducer("ProducerGroupName",  getAclRPCHook());
         ExecutorService executorService = new ThreadPoolExecutor(2, 5, 100, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(2000), new ThreadFactory() {
             @Override
@@ -93,3 +93,7 @@ public class TransactionProducer {
 * LocalTransactionState.COMMIT_MESSAGE：提交事务，允许订阅方消费该消息；
 * LocalTransactionState.ROLLBACK_MESSAGE：回滚事务，消息将被丢弃不允许消费；
 * LocalTransactionState.UNKNOW：未知状态，服务端会向生产者再次回查该消息的状态；
+
+## 订阅事务消息
+
+订阅事务事务消息与普通消息一致，具体可参考[订阅普通消息](./normal_message)。

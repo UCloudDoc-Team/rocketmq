@@ -28,7 +28,7 @@ public class Producer {
     }
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
         // 实例接入地址，可在实例列表页获取
         producer.setNamesrvAddr("1.1.1.1:9876");
@@ -56,7 +56,7 @@ public class Producer {
 
 ### 异步发送
 
-异步发送是指客户端发送一条消息之后，不等待服务端返回就发送小一条消息。
+异步发送是指客户端发送一条消息之后，不等待服务端返回就发送下一条消息。
 
 
 ```
@@ -79,7 +79,7 @@ public class Producer {
     }
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
         // 实例接入地址，可在实例列表页获取
         producer.setNamesrvAddr("1.1.1.1:9876");

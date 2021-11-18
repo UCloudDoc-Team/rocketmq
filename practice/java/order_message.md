@@ -35,7 +35,7 @@ public class Producer {
     }
     public static void main(String[] args) throws UnsupportedEncodingException {
         try {
-            // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+            // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
             DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
             // 实例接入地址，可在实例列表页获取
             producer.setNamesrvAddr("1.1.1.1:9876");

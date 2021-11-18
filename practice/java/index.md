@@ -10,12 +10,12 @@
 <dependency>
     <groupId>org.apache.rocketmq</groupId>
     <artifactId>rocketmq-client</artifactId>
-    <version>4.7.2</version>
+    <version>4.7.1</version>
 </dependency>
 <dependency>
     <groupId>org.apache.rocketmq</groupId>
     <artifactId>rocketmq-acl</artifactId>
-    <version>4.7.2</version>
+    <version>4.7.1</version>
 </dependency>        
 ```
 
@@ -26,7 +26,7 @@
 
 ## 接入代码参考
 
-提供一下几种场景接入代码参考，更多请参考官方实例[Rocketmq Example](https://github.com/apache/rocketmq/tree/rocketmq-all-4.7.1/example/src/main/java/org/apache/rocketmq/example)
+提供以下几种场景接入代码参考，更多请参考官方实例[Rocketmq Example](https://github.com/apache/rocketmq/tree/rocketmq-all-4.7.1/example/src/main/java/org/apache/rocketmq/example)
 
 * [收发普通消息](./normal_message)
 * [收发顺序消息](./order_message)

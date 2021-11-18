@@ -1,15 +1,16 @@
 # 定时/延时消息
 
-定时/延时消息是指消息发送到broker后，不会立即被消费，等待特定时间投递给真正的topic。
+定时/延时消息是指消息发送到服务端后，不会立即被消费，等待特定时间投递给真正的topic。
 
 URocketMQ提供两种定时/延时机制：
-* 开源固定梯度延时：开源RocketMQ支持固定梯度的延迟消息，消息发送到之后，不会立即被消费，等待特定时间投递给真正的   topic，默认配置“1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h” 18个级别，每个级别对应不同的延时时间，比如1对应1s，5对应1m
+* 开源固定梯度延时：开源RocketMQ支持固定梯度的延迟消息，消息发送到之后，不会立即被消费，等待特定时间投递给真正的topic，默认配置“1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h” 18个级别，每个级别对应不同的延时时间，比如1对应1s，5对应1m
 * 自定义定时/延时：URocketMQ自研支持任意秒级延迟消息，用户可自定义定时或者延迟未来任意一秒发送消息。
 
 定时/延时消息仅在生产侧需要处理，消费侧代码无需特殊处理。
 
+## 生产定时/延时消息
 
-## 开源固定梯度延时
+### 开源固定梯度延时
 
 可根据实际需求设置不同的延迟等级，如下:
 
@@ -33,7 +34,7 @@ public class Producer {
     }
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
         // 实例接入地址，可在实例列表页获取
         producer.setNamesrvAddr("1.1.1.1:9876");
@@ -61,11 +62,11 @@ public class Producer {
 }
 ```
 
-## 自定义定时/延时
+### 自定义定时/延时
 
-定时与延时代码稍有区别，具体如下:
+自定义定时与延时代码稍有区别，具体如下:
 
-### 自定义定时消息
+#### 自定义定时消息
 
 ```
 import java.text.SimpleDateFormat;
@@ -88,7 +89,7 @@ public class Producer {
     }
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
         // 实例接入地址，可在实例列表页获取
         producer.setNamesrvAddr("1.1.1.1:9876");
@@ -117,7 +118,7 @@ public class Producer {
 }
 ```
 
-### 自定义延时消息
+#### 自定义延时消息
 
 ```
 import java.text.SimpleDateFormat;
@@ -140,7 +141,7 @@ public class Producer {
     }
     public static void main(String[] args) throws MQClientException, InterruptedException {
 
-        // "ProducerGroupName"为生产组，用户可使用控制台创建的Group或者自定义
+        // "ProducerGroupName"为生产组，用户可使用控制台创建的生产Group或者自定义
         DefaultMQProducer producer = new DefaultMQProducer("ProducerGroupName", getAclRPCHook());
         // 实例接入地址，可在实例列表页获取
         producer.setNamesrvAddr("1.1.1.1:9876");
@@ -170,3 +171,6 @@ public class Producer {
 }
 ```
 
+## 订阅定时/延时消息
+
+订阅定时/延时消息与订阅普通消息一致，具体可参考[订阅普通消息](./normal_message)。

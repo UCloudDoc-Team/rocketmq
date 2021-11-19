@@ -62,6 +62,7 @@ public class Producer {
 ```
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.client.producer.SendCallback;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.remoting.common.RemotingHelper;
@@ -92,17 +93,19 @@ public class Producer {
                         "Message_Tag",
                         "Message_Key",
                         "Message Content Hello World".getBytes(RemotingHelper.DEFAULT_CHARSET));
-                   producer.send(msg, new SendCallback() {
-                    @Override public void onSuccess(SendResult result) {
-                        // 发送成功
-                        System.out.println("send message success");
-                    }
+                    producer.send(msg, new SendCallback() {
+                        @Override
+                        public void onSuccess(SendResult result) {
+                            // 发送成功
+                            System.out.println("send message success");
+                        }
 
-                    @Override public void onException(Throwable throwable) {
-                        // 发送失败，可重新发送或者存储该条消息进行补偿
-                        System.out.println("send message failed.");
-                        throwable.printStackTrace();
-                    }
+                        @Override
+                        public void onException(Throwable throwable) {
+                            // 发送失败，可重新发送或者存储该条消息进行补偿
+                            System.out.println("send message failed.");
+                            throwable.printStackTrace();
+                        }
                 });
                 }
 
@@ -110,7 +113,14 @@ public class Producer {
                 e.printStackTrace();
             }
 
-        producer.shutdown();
+        try
+        {
+            // 延迟2秒停止producer，测试需要，实际可去掉该逻辑
+            Thread.sleep(2000);
+            producer.shutdown();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
 ```
@@ -125,7 +135,6 @@ import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.consumer.rebalance.AllocateMessageQueueAveragely;
 import org.apache.rocketmq.client.exception.MQClientException;
-import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
 import org.apache.rocketmq.common.message.MessageExt;
 import org.apache.rocketmq.acl.common.AclClientRPCHook;
 import org.apache.rocketmq.acl.common.SessionCredentials;

@@ -5,6 +5,7 @@
 ## 发送事务消息
 
 ```
+import org.apache.rocketmq.client.producer.LocalTransactionState;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.client.producer.TransactionListener;

@@ -37,7 +37,13 @@
     * 告警通知
         * [创建告警模板](/rocketmq/guide/alarm/create_template)
         * [绑定资源](/rocketmq/guide/alarm/bind_resource)
-* [接入指南](/rocketmq/practice/index)
+* 接入指南
+    * [接入步骤](/rocketmq/practice/index)
+    * [概述](/rocketmq/practice/java/index)
+    * [收发普通消息](/rocketmq/practice/java/normal_message)
+    * [收发顺序消息](/rocketmq/practice/java/order_message)
+    * [收发事务消息](/rocketmq/practice/java/transaction_message)
+    * [收发定时延时消息](/rocketmq/practice/java/delay_message)
 * [迁移指南](/rocketmq/transfer/index)
 * [性能指标](/rocketmq/capacity/index)
 * 计费说明

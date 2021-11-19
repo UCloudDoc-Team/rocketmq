@@ -18,6 +18,8 @@
         * [实例列表](/rocketmq/guide/instance/list)
         * [实例概览](/rocketmq/guide/instance/detail)
         * [实例删除](/rocketmq/guide/instance/delete)
+        * [消息存储扩容](/rocketmq/guide/instance/storage)
+        * [实例停服回收](/rocketmq/guide/instance/recover)
     * Topic管理
         * [Topic创建](/rocketmq/guide/topic/create)
         * [订阅关系](/rocketmq/guide/topic/subscrition)

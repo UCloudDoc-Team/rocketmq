@@ -40,7 +40,7 @@
 * [接入指南](/rocketmq/practice/index)
 * [迁移指南](/rocketmq/transfer/index)
 * [性能指标](/rocketmq/capacity/index)
-* [计费说明]
+* 计费说明
     * [产品定价](/rocketmq/price/index)
     * [回收](/rocketmq/price/recycle)
 * [FAQ](/rocketmq/faq/index)

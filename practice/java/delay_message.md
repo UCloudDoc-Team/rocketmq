@@ -95,11 +95,11 @@ public class Producer {
         producer.setNamesrvAddr("1.1.1.1:9876");
         producer.start();
 
-        // 支持秒级单位延迟，startDeliverTime单位为毫秒
-        long startDeleverTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2021-11-01 11:49:00").getTime();
         for (int i = 0; i < 128; i++)
             try {
                 {
+                    // 支持秒级单位延迟，startDeliverTime单位为毫秒
+                    long startDeliverTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse("2021-11-01 11:49:00").getTime();
                     Message msg = new Message("Topic_Name",
                         "Message_Tag",
                         "Message_Key",
@@ -156,7 +156,7 @@ public class Producer {
                         "Message Content Hello World".getBytes(RemotingHelper.DEFAULT_CHARSET));
                     long currMillseconds = System.currentTimeMillis();
                     // 支持秒级单位延迟，startDeliverTime单位为毫秒
-                    long startDeliverTime = currMillseconds + (i % timeDuration) * 1000;
+                    long startDeliverTime = currMillseconds + i * 1000;
                     msg.putUserProperty("__STARTDELIVERTIME", String.valueOf(startDeliverTime));
                     SendResult sendResult = producer.send(msg);
                     System.out.printf("%s%n", sendResult);

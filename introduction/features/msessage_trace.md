@@ -18,4 +18,4 @@
 
 客户端需要设置消息轨迹才可使用消息轨迹功能。
 
-[JAVA版本客户端设置消息轨迹示例](https://github.com/apache/rocketmq/tree/rocketmq-all-4.7.1/example/src/main/java/org/apache/rocketmq/example/tracemessage)
+[JAVA版本客户端设置消息轨迹示例](/rocketmq/practice/java/message_trace)

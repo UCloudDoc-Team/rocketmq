@@ -30,6 +30,7 @@
         * [重置消息位](/rocketmq/guide/group/reset_offset)
         * [Group删除](/rocketmq/guide/group/delete)
     * [消息查询](/rocketmq/guide/message)
+    * [生产者查询](/rocketmq/guide/producer)
     * [消息轨迹](/rocketmq/guide/message_trace)
     * [死信队列](/rocketmq/guide/dlq)
     * [令牌管理](/rocketmq/guide/token)

@@ -28,8 +28,8 @@
 
 提供以下几种场景接入代码参考，更多请参考官方实例[Rocketmq Example](https://github.com/apache/rocketmq/tree/rocketmq-all-4.7.1/example/src/main/java/org/apache/rocketmq/example)
 
-* [收发普通消息](./normal_message)
-* [收发顺序消息](./order_message)
-* [收发事务消息](./transaction_message)
-* [收发定时/延时消息](./delay_message)
-* [消息轨迹](./message_trace)
+* [收发普通消息](/rocketmq/practice/java/normal_message)
+* [收发顺序消息](/rocketmq/practice/java/order_message)
+* [收发事务消息](/rocketmq/practice/java/transaction_message)
+* [收发定时/延时消息](/rocketmq/practice/java/delay_message)
+* [消息轨迹](/rocketmq/practice/java/message_trace)

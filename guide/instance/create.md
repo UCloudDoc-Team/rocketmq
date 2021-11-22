@@ -20,7 +20,7 @@
 
 消息默认存储3天，用户可根据业务量设置存储量。
 
-消息存储量支持[在线扩容](/rocketmq/capacity/storage)。
+消息存储量支持[在线扩容](/rocketmq/instance/storage)。
 
 ## 网络模式
 

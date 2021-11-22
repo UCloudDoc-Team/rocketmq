@@ -27,11 +27,11 @@ import org.apache.rocketmq.remoting.RPCHook;
 
 public class Producer {
     // 实例接入使用公私钥，可在实例令牌管理页面获取
-    private static final String AccessKey = "xxx";
-    private static final String SecretKey = "xxx";
+    private static final String ACCESS_KEY = "xxx";
+    private static final String SECRET_KEY = "xxx";
 
     static RPCHook getAclRPCHook() {
-        return new AclClientRPCHook(new SessionCredentials(AccessKey, SecretKey));
+        return new AclClientRPCHook(new SessionCredentials(ACCESS_KEY, SECRET_KEY));
     }
     public static void main(String[] args) throws UnsupportedEncodingException {
         try {
@@ -85,11 +85,11 @@ import org.apache.rocketmq.remoting.RPCHook;
 
 public class Consumer {
     // 实例接入使用公私钥，可在实例令牌管理页面获取
-    private static final String AccessKey = "xxx";
-    private static final String SecretKey = "xxx";
+    private static final String ACCESS_KEY = "xxx";
+    private static final String SECRET_KEY = "xxx";
 
     static RPCHook getAclRPCHook() {
-        return new AclClientRPCHook(new SessionCredentials(AccessKey, SecretKey));
+        return new AclClientRPCHook(new SessionCredentials(ACCESS_KEY, SECRET_KEY));
     }
 
     public static void main(String[] args) throws MQClientException {

@@ -97,4 +97,4 @@ public class TransactionProducer {
 
 ## 订阅事务消息
 
-订阅事务事务消息与普通消息一致，具体可参考[订阅普通消息](./normal_message)。
+订阅事务事务消息与普通消息一致，具体可参考[订阅普通消息](/rocketmq/practice/java/normal_message)。

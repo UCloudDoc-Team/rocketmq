@@ -173,4 +173,4 @@ public class Producer {
 
 ## 订阅定时/延时消息
 
-订阅定时/延时消息与订阅普通消息一致，具体可参考[订阅普通消息](./normal_message)。
+订阅定时/延时消息与订阅普通消息一致，具体可参考[订阅普通消息](/rocketmq/practice/java/normal_message)。

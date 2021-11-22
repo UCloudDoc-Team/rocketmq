@@ -12,7 +12,7 @@
 
 ## 创建Group
 
-在“Group管理”页创建Group并获取Group名称，具体参考[Group创建](/rocketmq/guide/topic/create.md)。
+在“Group管理”页创建Group并获取Group名称，具体参考[Group创建](/rocketmq/guide/group/create.md)。
 
 ## 获取令牌公私钥
 

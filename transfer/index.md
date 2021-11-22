@@ -10,7 +10,7 @@
 1. 创建实例并创建同名Topic、Group。
     * [创建实例](/rocketmq/guide/instance/create)
     * [创建Topic](/rocketmq/guide/topic/create)
-    * [创建Topic](/rocketmq/guide/group/create)
+    * [创建Group](/rocketmq/guide/group/create)
 2. 确认SDK版本，如Java建议使用4.7.1版本或以上。
 3. SDK修改如下配置信息
    * 接入地址：可在[实例列表](/rocketmq/guide/instance/list)获取
@@ -25,7 +25,7 @@
 1. 创建实例并创建同名Topic、Group；
     * [创建实例](/rocketmq/guide/instance/create)
     * [创建Topic](/rocketmq/guide/topic/create)
-    * [创建Topic](/rocketmq/guide/group/create)
+    * [创建Group](/rocketmq/guide/group/create)
 2. 根据开发语言选择对应的SDK，具体见[接入指南](/rocketmq/guide/instance/practice/index)
 3. SDK接入客户端程序，需要配置信息如下:
     * 接入地址：可在[实例列表](/rocketmq/guide/instance/list)获取

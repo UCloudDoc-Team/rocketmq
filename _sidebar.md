@@ -45,6 +45,7 @@
     * [收发顺序消息](/rocketmq/practice/java/order_message)
     * [收发事务消息](/rocketmq/practice/java/transaction_message)
     * [收发定时延时消息](/rocketmq/practice/java/delay_message)
+    * [消息轨迹](/rocketmq/practice/java/message_trace)
 * [迁移指南](/rocketmq/transfer/index)
 * [性能指标](/rocketmq/capacity/index)
 * 计费说明

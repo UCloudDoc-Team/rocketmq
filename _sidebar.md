@@ -1,4 +1,4 @@
-- [概览](/rocketmq/README)
+* [概览](/rocketmq/README)
 * 产品简介
     * [什么是rocketmq](/rocketmq/introduction/concept)
     * [产品架构](/rocketmq/introduction/architecture)

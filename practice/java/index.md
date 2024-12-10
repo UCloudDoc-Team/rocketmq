@@ -31,5 +31,5 @@
 * [收发普通消息](/rocketmq/practice/java/normal_message)
 * [收发顺序消息](/rocketmq/practice/java/order_message)
 * [收发事务消息](/rocketmq/practice/java/transaction_message)
-* [收发定时/延时消息](/rocketmq/practice/java/delay_message)
+* [收发延时消息](/rocketmq/practice/java/delay_message)
 * [消息轨迹](/rocketmq/practice/java/message_trace)

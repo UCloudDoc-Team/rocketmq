@@ -19,10 +19,9 @@
 </dependency>        
 ```
 
-
 ### 下载依赖包
 
-可在RocketMQ官网下载：[Apache RocketMQ](https://rocketmq.apache.org/release_notes/release-notes-4.7.1)
+可在RocketMQ官网下载：[Apache RocketMQ](https://rocketmq.apache.org/release-notes/2020/06/29/4.7.1/)
 
 ## 接入代码参考
 

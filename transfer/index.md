@@ -26,7 +26,7 @@
     * [创建实例](/rocketmq/guide/instance/create)
     * [创建Topic](/rocketmq/guide/topic/create)
     * [创建Group](/rocketmq/guide/group/create)
-2. 根据开发语言选择对应的SDK，具体见[接入指南](/rocketmq/guide/instance/practice/index)
+2. 根据开发语言选择对应的SDK，具体见[接入指南](/rocketmq/practice/index)
 3. SDK接入客户端程序，需要配置信息如下:
     * 接入地址：可在[实例列表](/rocketmq/guide/instance/list)获取
     * 令牌公私钥：可在[令牌列表](/rocketmq/guide/token)获取

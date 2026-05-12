@@ -95,3 +95,21 @@ public class PushConsumer {
 }
 ```
 
+# 补充说明
+以上开启消息轨迹的方法在 4.x 和 5.x 版本中通用。
+
+此外，5.x 版本也可以通过以下代码开启消息轨迹：
+
+```
+// 生产者开启消息轨迹：
+producer.setEnableTrace(true);
+···
+producer.start();
+```
+
+```
+// 消费者开启消息轨迹
+consumer.setEnableTrace(true);
+···
+consumer.start();
+```

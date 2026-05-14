@@ -13,5 +13,7 @@
 
 * Consumer：消息消费者，支持集群部署，支持pull与push两种方式。
 
-* 高可用模块：UCloud自研Broker可用性管理模块，监测主从Broker节点可用性，在Broker Master节点异常时可实现自主主从切换，保证集群可用。
+# 5.x 版本架构升级
 
+1. 新增 Proxy 集群：弹性无状态客户端代理服务。拆分了 Broker 组件中的客户端协议适配、权限管理、消费管理等计算逻辑，实现存算分离。增加 gRPC 协议支持，兼容原有的 Remoting 协议。
+2. 新增 Controller 组件：实现 Broker 集群自动主从切换。

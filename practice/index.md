@@ -22,6 +22,19 @@
 
 URocketMQ兼容开源RocketMQ协议，用户可下载对应语言的开源SDK，并利用实例接入地址、Topic名称、Group名称、令牌公私钥信息进行接入。
 
+URocketMQ 各版本支持的协议情况如下：
+
+| 协议          | 4.x 集群 | 5.x 集群 |
+| ------------- | -------- | -------- |
+| gRPC 协议     | 不支持   | 支持     |
+| Remoting 协议 | 支持     | 支持     |
+
+5.x 集群建议优先使用 gRPC 协议。
+
+### gRPC协议接入参考
+* [gRPC协议接入指南](/rocketmq/practice/gRPC.md)
+
+### Remoting 协议接入参考
 不同语言SDK接入实例如下，请根据实际情况选择不同语言SDK及版本。
 * [JAVA接入指南](/rocketmq/practice/java/index)
 * [Golang Example](https://github.com/apache/rocketmq-client-go/tree/v2.1.1-rc2/examples)

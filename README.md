@@ -9,7 +9,7 @@
         * [消费模型](/rocketmq/introduction/features/consume_model)
         * [消息回溯](/rocketmq/introduction/features/message_backtracking)
         * [死信队列](/rocketmq/introduction/features/dlq)
-        * [消息轨迹](/rocketmq/introduction/features/msessage_trace.md)
+        * [消息轨迹](/rocketmq/introduction/features/message_trace.md)
     * [产品优势](/rocketmq/introduction/advantages)
 * 操作指南
     * 实例管理
@@ -41,12 +41,14 @@
         * [绑定资源](/rocketmq/guide/alarm/bind_resource)
 * 接入指南
     * [接入步骤](/rocketmq/practice/index)
-    * [概述](/rocketmq/practice/java/index)
-    * [收发普通消息](/rocketmq/practice/java/normal_message)
-    * [收发顺序消息](/rocketmq/practice/java/order_message)
-    * [收发事务消息](/rocketmq/practice/java/transaction_message)
-    * [收发延时消息](/rocketmq/practice/java/delay_message)
-    * [消息轨迹](/rocketmq/practice/java/message_trace)
+    * [gRPC协议接入指南(5.x版本)](/rocketmq/practice/gRPC.md)
+    * Remoting协议接入指南
+      * [概述](/rocketmq/practice/java/index)
+      * [收发普通消息](/rocketmq/practice/java/normal_message)
+      * [收发顺序消息](/rocketmq/practice/java/order_message)
+      * [收发事务消息](/rocketmq/practice/java/transaction_message)
+      * [收发延时消息](/rocketmq/practice/java/delay_message)
+      * [消息轨迹](/rocketmq/practice/java/message_trace)
 * [迁移指南](/rocketmq/transfer/index)
 * [性能指标](/rocketmq/capacity/index)
 * 计费说明

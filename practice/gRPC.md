@@ -1,6 +1,8 @@
 # gRPC 协议接入指南
 
-5.x 集群通过 gRPC 协议接入，使用 [rocketmq-clients](https://github.com/apache/rocketmq-clients) 开源 Java SDK。以下按使用场景列出官方示例代码。
+5.x 集群通过 gRPC 协议接入，使用 [rocketmq-clients](https://github.com/apache/rocketmq-clients) 开源 SDK, 支持 JAVA、Golang、C++ 等多种语言。
+
+以下按使用场景列出 Java 版本的官方示例代码。
 
 ## 示例代码索引
 

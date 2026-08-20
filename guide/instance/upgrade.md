@@ -6,7 +6,7 @@
 
 ![instance_upgrade_button](/rocketmq/images/service_upgrade_button.png)
 
-根据业务需要调整至目标消息存储值。
+根据业务需要调整至目标实例规格。
 
 ![instance_upgrade](/rocketmq/images/service_upgrade.png)
 

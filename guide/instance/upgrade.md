@@ -2,7 +2,7 @@
 
 实例规格支持在线扩容，可根据业务需要使用。
 
-选择指定实例，在操作列选择“扩容”按钮操作，如下:
+选择指定实例，在操作列选择“更改实例规格”按钮操作，如下:
 
 ![instance_upgrade_button](/rocketmq/images/service_upgrade_button.png)
 

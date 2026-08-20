@@ -2,7 +2,7 @@
 
 实例消息存储支持在线扩容，可根据业务需要使用。
 
-选择指定实例，在操作列选择“扩容”按钮操作，如下:
+选择指定实例，在操作列选择“扩容磁盘容量”按钮操作，如下:
 
 ![sotrage_expand_button](/rocketmq/images/sotrage_expand_button.png)
 

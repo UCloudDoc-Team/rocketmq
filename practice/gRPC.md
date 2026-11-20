@@ -13,7 +13,10 @@
 | 生产者 | 发送延迟消息 | ProducerDelayMessageExample | [ProducerDelayMessageExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/ProducerDelayMessageExample.java) |
 | 生产者 | 发送事务消息 | ProducerTransactionMessageExample | [ProducerTransactionMessageExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/ProducerTransactionMessageExample.java) |
 | 生产者 | 异步发送消息 | AsyncProducerExample | [AsyncProducerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/AsyncProducerExample.java) |
+| 生产者 | 发送轻量消息 | LiteProducerExample | [LiteProducerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/LiteProducerExample.java) |
+| 生产者 | 发送优先级消息 | ProducerPriorityMessageExample | [ProducerPriorityMessageExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/ProducerPriorityMessageExample.java) |
 | 消费者 | Push 模式消费 | PushConsumerExample | [PushConsumerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/PushConsumerExample.java) |
+| 消费者 | 订阅轻量消息 | LitePushConsumerExample | [LitePushConsumerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/LitePushConsumerExample.java) |
 | 消费者 | Simple 模式消费 | SimpleConsumerExample | [SimpleConsumerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/SimpleConsumerExample.java) |
 | 消费者 | 异步 Simple 消费 | AsyncSimpleConsumerExample | [AsyncSimpleConsumerExample.java](https://github.com/apache/rocketmq-clients/blob/master/java/client/src/main/java/org/apache/rocketmq/client/java/example/AsyncSimpleConsumerExample.java) |
 
@@ -25,7 +28,7 @@ Maven 项目在 `pom.xml` 中添加以下依赖：
 <dependency>
     <groupId>org.apache.rocketmq</groupId>
     <artifactId>rocketmq-client-java</artifactId>
-    <version>5.2.0</version>
+    <version>5.2.2</version>
 </dependency>
 ```
 

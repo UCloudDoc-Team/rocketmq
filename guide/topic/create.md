@@ -7,3 +7,9 @@ RocketMQ 5.x 集群会对消息类型进行强制校验，生产者发送的消�
 RocketMQ 4.x 集群没有消息类型的强制校验，但依然建议不要混用。
 
 ![topic_create](/rocketmq/images/topic_create.png)
+
+## 轻量消息与优先级消息
+
+`Lite` 和 `Priority` 类型 Topic 要求实例版本为 5.5.1 及以上，升级方式见 [实例版本升级](/rocketmq/guide/instance/version_upgrade)。
+
+- 消息类型为 `Lite` 的 Topic 可配置 `LiteTopic` 的过期时间（分钟）：30～720。过期未收到新消息的 `LiteTopic` 会被自动清理；不过期仍受实例消息保留时间限制。

@@ -1,5 +1,5 @@
 # 消息查询
 
-可按照MessageId，MessageKey，Topic三个维度进⾏历史消息查询。每种查询最多返回2000条记录。
+可按照 MessageId、MessageKey、Topic、LiteTopic 四个维度进行历史消息查询。每种查询最多返回 2000 条记录。
 
 ![message_search](/rocketmq/images/message_search.png)

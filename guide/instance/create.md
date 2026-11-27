@@ -5,9 +5,11 @@
 ![instance_create](/rocketmq/images/instance_create.png)
 
 ## 集群版本
-当前 URocketMQ 支持两个版本，其中
-- 4.x 版本：基于开源 RocketMQ 4.7.1 版本。
-- 5.x 版本：基于开源 RocketMQ 5.4.0 版本。
+| 版本系列 | 当前支持的最新版本 |
+|:---:|:---:|
+| 4.x | 4.7.1 |
+| 5.x | 5.5.1 |
+
 用户可根据自身需求自主选择，推荐使用 5.x 版本。
 
 ## 套餐版本
